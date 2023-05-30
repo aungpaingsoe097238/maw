@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <>
       {/* nav bar */}
-      <nav className=" w-full bg-gray-100 text-slate-700 p-[10px] ">
+      <nav className=" w-full bg-gray-100 text-slate-700 p-[10px] fixed ">
         <ul className=" w-[70%] mx-auto flex justify-between ">
           <li className="">
             <a href="" className="">
