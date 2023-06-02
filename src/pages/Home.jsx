@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import Top from "../components/Top";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
@@ -9,12 +8,14 @@ const Home = () => {
   return (
     <>
 
-      <NavBar />
-      <Top/>
-      <About/>
-      <Portfolio/>
-      <Contact/>
+      {/* <Top/> */}
+      <div className=" h-screen flex justify-center items-center ">
+        <About />
+      </div>
 
+      {/* <Portfolio/>
+        <Contact/> */}
+        
     </>
   );
 };
