@@ -1,17 +1,17 @@
 import React from "react";
 import AboutImg from "../assets/img/about.png";
 
+
 const About = () => {
   return (
     <>
       <div className=" w-[70%] mx-auto ">
 
         <div className=" mb-5">
-          <span className=" text-3xl font-bold underline ">About me</span>
-          <span className=" text-sm bg-slate-300 p-1 ml-2 " >Who am I</span>
+          <span className=" text-2xl font-bold underline ">About me</span>
+          <span className=" text-xs bg-slate-300 p-1 ml-2 " >Who am I</span>
         </div>
-
-
+        
         <div className="flex gap-10 ">
 
           {/* About Image  */}
@@ -28,7 +28,7 @@ const About = () => {
               molestiae accusamus quisquam perferendis autem nulla ut sunt,
               saepe error sit. Beatae, fugiat!
             </p>
-            <button className=" bg-slate-500 p-4 text-white ">More About me</button>
+            <button class="button-52" role="button">More about me</button>
           </div>
 
         </div>
