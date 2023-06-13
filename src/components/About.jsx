@@ -1,16 +1,15 @@
 import React from "react";
 import AboutImg from "../assets/img/about.png";
+import Title from "./resources/Title";
 
 
 const About = () => {
   return (
-    <>
+    <div className="h-screen flex justify-center items-center ">
+
       <div className=" w-[70%] mx-auto ">
 
-        <div className=" mb-5">
-          <span className=" text-2xl font-bold underline ">About me</span>
-          <span className=" text-xs bg-slate-300 p-1 ml-2 " >Who am I</span>
-        </div>
+        <Title  title={'About'} subTitle={'Who am i'}  />
         
         <div className="flex gap-10 ">
 
@@ -32,8 +31,10 @@ const About = () => {
           </div>
 
         </div>
+
       </div>
-    </>
+      
+    </div>
   );
 };
 

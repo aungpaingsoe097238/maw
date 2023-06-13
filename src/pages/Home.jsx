@@ -7,15 +7,11 @@ import Contact from "../components/Contact";
 const Home = () => {
   return (
     <>
-
       {/* <Top/> */}
-      <div className=" h-screen flex justify-center items-center ">
-        <About />
-      </div>
 
-      <Portfolio/>
-        {/* <Contact/> */}
-        
+      <About />
+      <Portfolio />
+      <Contact />
     </>
   );
 };
