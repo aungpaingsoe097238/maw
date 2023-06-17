@@ -2,14 +2,10 @@ import React from "react";
 
 const Test = () => {
   return (
-    <div className=" flex h-screen justify-center items-center">
-      <input
-        type="text"
-        placeholder="enter here"
-        className=" inline-block py-3 px-4 w-[500px] border border-slate-500 rounded-lg focus:border-blue-500 "
-      />
+    <div className=" relative h-screen ">
 
-      <textarea className=" border border-slate-500 w-[30%] rounded-lg" placeholder="enter" rows={10} ></textarea>
+      <div className=" w-[100px] h-[100px] bg-red-500 absolute left-[100px] top-[35%] "></div>
+
     </div>
   );
 };
