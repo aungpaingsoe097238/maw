@@ -8,7 +8,7 @@ import './assets/css/button51.css'
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={ <Home /> } />
