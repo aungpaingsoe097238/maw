@@ -28,13 +28,13 @@ const Portfolio = () => {
   ]);
 
   return (
-    <div className="h-screen flex justify-center items-center ">
+    <div className="md:h-screen m-2 md:m-0 flex justify-center items-center ">
 
-      <div className=" w-[70%] mx-auto ">
+      <div className=" md:w-[70%] mx-auto ">
 
         <Title title={'Portfolio'} subTitle={'Work do so far'} />
 
-        <div className=" flex gap-5">
+        <div className=" flex flex-col md:flex-row gap-5">
           {projects?.map((project, index) => {
             return (
               <div className=" basis-1/3 " key={index}>

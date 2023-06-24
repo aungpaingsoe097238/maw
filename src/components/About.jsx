@@ -5,13 +5,13 @@ import Title from "./resources/Title";
 
 const About = () => {
   return (
-    <div className="h-screen flex justify-center items-center ">
+    <div className="md:h-screen m-2 md:m-0 flex justify-center items-center ">
 
-      <div className=" w-[70%] mx-auto ">
+      <div className=" md:w-[70%] mx-auto ">
 
         <Title  title={'About'} subTitle={'Who am i'}  />
         
-        <div className="flex gap-10 ">
+        <div className="flex flex-col md:flex-row gap-10 ">
 
           {/* About Image  */}
           <div className=" basis-1/3">
