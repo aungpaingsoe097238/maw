@@ -1,12 +1,11 @@
 import React from "react";
 import "../assets/css/button89.css";
-import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGithub, FaMouse } from "react-icons/fa";
 
 const Top = () => {
   return (
     <div
-      className="h-screen flex justify-center items-center relative "
-      id="top"
+      className="h-screen flex justify-center items-center relative top "
     >
 
       <div className=" text-center ">
@@ -31,6 +30,10 @@ const Top = () => {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className=" absolute bottom-5 text-2xl text-white animate-bounce ">
+        <FaMouse />
       </div>
 
     </div>
